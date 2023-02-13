@@ -1,5 +1,40 @@
 *
     box-sizing: border-box
+.container
+    position: relative
+    max-width: 1140px
+    margin: 0 auto
 .main-section
+    position: relative
+    min-height: 800px
+    background: #F0F0F0
+    padding-top: 16px
+    overflow: hidden
+    &__nav-container
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        height: 69px
+        align-items: center
     &__logo
-        height: 50px
+        height: 69px
+    &__content-container
+        position: relative
+        display: flex
+        flex-direction: row
+.nav-menu
+    &__list
+    
+        display: flex
+        flex-direction: row
+        list-style-type: none
+    &__list-item
+        margin-right: 64px
+        font-size: 18px
+        font-weight: bold
+        &:last-child
+            margin-right: 0px
+        a
+            text-decoration: none
+            color: black
+
