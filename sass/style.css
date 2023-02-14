@@ -30,6 +30,16 @@
   display: flex;
   flex-direction: row;
 }
+.main-section__first-elipse {
+  position: absolute;
+  top: 90px;
+  right: 60px;
+}
+.main-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: 650px;
+}
 
 .nav-menu__list {
   display: flex;
@@ -54,10 +64,11 @@
   width: 500px;
   top: 80px;
   right: -100px;
+  z-index: 5;
 }
 .right-wrapper__text {
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .title {
@@ -123,4 +134,22 @@
   width: 194px;
   height: 194px;
   background: linear-gradient(180deg, #FCCE9F 22.4%, rgba(244, 150, 149, 0.43) 48.96%, rgba(248, 194, 163, 0.5) 66.15%, #DA95A3 86.46%);
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elipse_dig {
+  width: 282px;
+  height: 282px;
+}
+.elipse__subtract {
+  width: 130px;
+  height: 130px;
+  background: #F0F0F0;
+  border-radius: 150px;
+}
+.elipse__subtract_big {
+  width: 188px;
+  height: 188px;
 }/*# sourceMappingURL=style.css.map */
